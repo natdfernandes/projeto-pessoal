@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --largura-padrao: 1152px;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+
+}
+
+div.cabecalho {
+    /*margin auto centraliza na tela o conteúdo, deixando esquerda e direita no mesmo valor*/
+    margin: auto;
+    /*não pode passar do valor determinado*/
+    max-width: var(--largura-padrao);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    /*Espaçamento entre os conteúdos dentro do elemento: funciona apenas com display flex ou grid*/
+    gap: 12px;
+}
+
+a.nav-item {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    padding: 16px 20px;
+    font-weight: 500;
+}
+
+a.nav-item:hover {
+    color: rgb(0, 0, 0);
+}
+
+a.nav-item.destacado {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+a.nav-item.destacado:hover {
+    background-color: rgb(66, 66, 66);
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
