@@ -143,6 +143,33 @@ div.card-recurso>p {
     color: rgba(0, 0, 0, 0.5);
 }
 
+section.cards {
+    max-width: var(--largura-padrao);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+section.cards>h2 {
+    padding-bottom: 48px;
+}
+
+div.card-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 956px;
+    padding-bottom: 96px;
+}
+
+div.card-horizontal>div.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    width: 393px;
+}
 
 
 
