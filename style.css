@@ -53,6 +53,17 @@ a.botao {
     font-size: 16px;
 }
 
+header {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    padding-top: 60px;
+}
+
 div.cabecalho {
     /*margin auto centraliza na tela o conteúdo, deixando esquerda e direita no mesmo valor*/
     margin: auto;
