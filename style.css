@@ -14,6 +14,27 @@
 
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+}
+
+button.botao {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    padding: 16px 20px;
+}
+
 div.cabecalho {
     /*margin auto centraliza na tela o conteúdo, deixando esquerda e direita no mesmo valor*/
     margin: auto;
@@ -50,6 +71,32 @@ a.nav-item.destacado {
 a.nav-item.destacado:hover {
     background-color: rgb(66, 66, 66);
 }
+
+section.area-titulo {
+    display: flex;
+    max-width: var(--largura-padrao);
+    align-items: center;
+    margin: auto;
+    gap: 96px;
+    padding: 96px 0;
+}
+
+section.area-titulo>div.conteudo-titulo {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+
+}
+
+
+
+
+
+
+
+
+
 
 footer {
     color: rgb(255, 255, 255);
