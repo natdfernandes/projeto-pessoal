@@ -11,12 +11,24 @@
     margin: 0px;
     padding: 0px;
     font-family: "Inter", Arial, Helvetica, sans-serif;
+}
 
+h1,
+h2,
+h3 {
+    font-weight: bold;
 }
 
 h1 {
-    font-weight: bold;
     font-size: 48px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 p {
@@ -33,6 +45,12 @@ button.botao {
     border-radius: 8px;
     background-color: rgb(0, 0, 0);
     padding: 16px 20px;
+}
+
+a.botao {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
 }
 
 div.cabecalho {
@@ -89,7 +107,41 @@ section.area-titulo>div.conteudo-titulo {
 
 }
 
+section.recurso {
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    max-width: var(--largura-padrao);
+    align-items: center;
+    margin: auto;
+    gap: 44px;
+}
 
+div.container-recurso {
+    display: flex;
+    gap: 24px;
+}
+
+div.card-recurso {
+    background-color: rgb(245, 245, 245);
+    border-radius: 16px;
+    padding: 24px;
+    padding-top: 64px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    position: relative;
+}
+
+div.card-recurso>img {
+    position: absolute;
+    top: -16px;
+}
+
+div.card-recurso>p {
+    color: rgba(0, 0, 0, 0.5);
+}
 
 
 
